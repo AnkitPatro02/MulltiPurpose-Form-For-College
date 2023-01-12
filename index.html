@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <link rel="stylesheet" href="styles_travel.css">
+    <link href="https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Stint+Ultra+Condensed&display=swap" rel="stylesheet">
+</head>
+<body>
+    <img class="cllg" src="cllg.jpg" alt="college">
+    <div class="logo">
+        <img src="srmaplogo.png" alt="srmaplogo">
+    </div>
+    <div class="head">
+        <h1>Welcome to SRM AP Travel Portal</h1>
+        <p>Please enter the below details for Tickets Booking</p>
+    </div>
+    <div class="form">
+        <form action="index.php" method="post">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="enter your name">
+
+            <label for="Roll_no">Roll Number</label>
+            <input type="text" name="roll" id="name" placeholder="enter your Roll Number">
+
+            <label for="dept">Department</label>
+            <input type="text" name="dept" id="dept" placeholder="enter your Department">
+            
+            <label for="mail">Mail Id</label>
+            <input type="email" name="mail" id="mail" placeholder="enter your Gmail">
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="enter your Number">
+
+            <!-- <label for="gender">Gender</label>
+            <select name="gender" id="gender">
+                <option value="" >SELECT</option>
+                <option value="male">MALE</option>
+                <option value="female">FEMALE</option>
+                <option value="other">Other</option>
+            </select> -->
+            
+            <button class="btn">Submit</button>
+        </form>
+
+        <!-- INSERT INTO `srmtrip1` (`sl. no.`, `Name`, `Roll no`, `Dept`, `Mail`, `Phone Number`, `Gender`, `Date`) VALUES ('1', 'Ankit Kumar Patro', 'AP20110010431', 'CSE', 'ankitkumar_patro@srmap.edu.in', '9040934039', 'Male\r\n', current_timestamp()); -->
+        
+    </div>
+    
+</body>
+</html>
+
